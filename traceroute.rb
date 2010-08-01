@@ -41,7 +41,6 @@ def traceroute(destination)
         curr_name = curr_addr
       end
       
-      #puts curr_name
       if curr_name.empty?
         curr_host = "*"
       else
